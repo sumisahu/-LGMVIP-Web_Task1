@@ -1,6 +1,6 @@
 
 import { makeStyles } from "@mui/styles";
- 
+  
 const ToDoListCss=makeStyles({
 
 
@@ -10,15 +10,21 @@ const ToDoListCss=makeStyles({
         alignItems:'center',
          width:'100wh',
         height:'100vh',
-        background:'#000'
+        backgroundImage:'url(todoo.jpg)',
+        backgroundSize:'cover',
+        padding:10,
+           
     },
     root:{
         width:"auto",
         height:'auto',
-        background:'#64DDBB',
-        borderRadius:10
+        background:'#fff',
+        borderRadius:10,
+        boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px;',
+        border:'3px solid #51cccc'
     }
 
 })
+
 
 export default ToDoListCss
